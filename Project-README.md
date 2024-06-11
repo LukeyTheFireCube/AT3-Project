@@ -66,3 +66,16 @@ To run this project locally, you need to have the following software installed:
 To start the development server, run:
 ```bash
 npm start
+```
+### Colors
+This site uses the following colors:
+
+| Name      | RGB           | HEX     |
+|-----------|---------------|---------|
+| Black     | 0, 0, 0       | #000000 |
+| White     | 255, 255, 255 | #FFFFFF |
+| Firebrick | 185, 28, 28   | #B91C1C |
+| Crimson   | 67, 10, 10    | #450A0A |
+| Mistyrose | 254, 225, 225 | #FEE2E2 |
+| Salmon    | 248, 114, 114 | #F87171 |
+
