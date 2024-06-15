@@ -2,34 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placeholder | OPFA</title>
+    <link rel="stylesheet" href="assets/css/site.css">
 </head>
-<body>
-<header id="main_header">
-    <img src="https://placehold.co/50x50/EEE/31343C" alt="">
-    <nav>
-        <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="projects.html">Projects</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <section>
-        <h2>Project title</h2>
-        <p>desc of project here idk a</p>
-        <a href="#">link to project</a>
+<body class="m-0">
+<header id="main_header" class="w-full text-white bg-red-700 shadow-sm body-font
+fixed top-0 z-50 sm:relative sm:mt-0">
+    <section class="container flex flex-col md:flex-row items-start justify-between
+    p-6 mx-auto gap-2">
+        <a href="index.html" class="flex items-center mb-4 text-gray-900 title-font md:mb-0
+        gap-2">
+            <img src="assets/img/pythonicon.png" alt="" class="h-10">
+        </a>
+        <nav class="flex text-4xl text-white gap-6">
+            <ul class="flex gap-6">
+                <li><a href="about.html" class="px-2 md:px-0 md:py-2 md:text-xl">About</a></li>
+                <li><a href="contact.html" class="px-2 md:px-0 md:py-2 md:text-xl">Contact</a></li>
+                <li><a href="projects.html" class="px-2 md:px-0 md:py-2 md:text-xl">Projects</a></li>
+            </ul>
+        </nav>
     </section>
-    <section>
-        <img src="https://placehold.co/200x100/EEE/31343C" alt="">
-        <p>alt text</p>
+</header>
+<main class="pt-40 md:pt-0 bg-red-400">
+    <section id="main_content" class="w-full grid grid-cols-1 md:grid-cols-2 px-4
+    md:px-8 min-h-screen bg-red-400">
+        <section class="bg-red-100 p-4">
+            <h2 class="text-5xl mb:text-7xl pb-1">Project Title</h2>
+            <p class="text-3xl mb:text-5xl pb-1">Description of project</p>
+            <button class="bg-red-700 text-gray-100 p-4 py-2 hover:bg-gray-800
+            hover:text-white transition ease-in-out duration-500">
+                <a href="https://github.com/talkpython/python-for-absolute-beginners-course">
+                    Go to repository
+                </a>
+            </button>
+        </section>
+        <section class="bg-red-100 p-4">
+            <img src="https://placehold.co/600x600/EEE/31343C" alt="">
+            <p class="text-3xl mb:text-5xl pb-1">alt text</p>
+        </section>
     </section>
 </main>
-<footer id="main_footer">
-    <nav>
+<footer id="main_footer" class="text-gray-400 bg-red-950 body-font w-full flex
+flex-row items-start justify-between p-6 mx-auto md:flex-row gap-2">
+    <section class="flex flex-wrap text-sm pl-6 ml-6 border-l border-gray-400">
+        <p class="m-auto">
+            © Copyright 2024 Luke Downes, all rights reserved.
+        </p>
+    </section>
+    <nav class="flex flex-wrap text-sm pl-6 ml-6 border-l border-gray-400
+    md:mr-auto gap-2">
         <ul>
-            <li><a href="#">Copyright</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
