@@ -8,7 +8,7 @@ This web project is a personal website that includes the following pages:
 - About page
 - Resumé page
 - Projects page
-- Sample project page(s)
+- Project info pages
 
 ## Pages
 
@@ -32,13 +32,12 @@ work experience, skills, and certifications.
 The Projects page showcases various projects completed by the website owner. Each one of these projects includes a
 brief description, technologies used in the project, and links to the project itself or its repository.
 
-### Sample Project Page
-The Sample project page provides detailed information about individual projects.
-The page includes:
+### Project Info Pages
+The project info pages provide detailed information about individual projects.
+Each page page includes:
 - Project title
 - Description
 - Technologies used
-- Screenshots or demo links
 - Link to the project's code repository (if applicable)
 
 ## Getting Started
@@ -70,12 +69,12 @@ npm start
 ### Colors
 This site uses the following colors:
 
-| Name      | RGB           | HEX     |
-|-----------|---------------|---------|
-| Black     | 0, 0, 0       | #000000 |
-| White     | 255, 255, 255 | #FFFFFF |
-| Firebrick | 185, 28, 28   | #B91C1C |
-| Crimson   | 67, 10, 10    | #450A0A |
-| Mistyrose | 254, 225, 225 | #FEE2E2 |
-| Salmon    | 248, 114, 114 | #F87171 |
+| Name                | RGB           | HEX     |
+|---------------------|---------------|---------|
+| Black               | 0, 0, 0       | #000000 |
+| White               | 255, 255, 255 | #FFFFFF |
+| Firebrick (red-700) | 185, 28, 28   | #B91C1C |
+| Crimson (red-950)   | 67, 10, 10    | #450A0A |
+| Mistyrose (red-100) | 254, 225, 225 | #FEE2E2 |
+| Salmon (red-400)    | 248, 114, 114 | #F87171 |
 
