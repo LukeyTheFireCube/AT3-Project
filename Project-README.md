@@ -34,7 +34,7 @@ brief description, technologies used in the project, and links to the project it
 
 ### Project Info Pages
 The project info pages provide detailed information about individual projects.
-Each page page includes:
+Each page includes:
 - Project title
 - Description
 - Technologies used
