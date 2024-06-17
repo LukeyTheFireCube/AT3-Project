@@ -653,14 +653,6 @@ video {
   height: 8rem;
 }
 
-.h-60 {
-  height: 15rem;
-}
-
-.h-80 {
-  height: 20rem;
-}
-
 .h-72 {
   height: 18rem;
 }
@@ -723,6 +715,10 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
@@ -825,6 +821,22 @@ video {
   padding-top: 10rem;
 }
 
+.pt-32 {
+  padding-top: 8rem;
+}
+
+.pt-48 {
+  padding-top: 12rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -857,6 +869,11 @@ video {
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-sm {
@@ -932,6 +949,10 @@ video {
 
   .sm\:block {
     display: block;
+  }
+
+  .sm\:pt-0 {
+    padding-top: 0px;
   }
 
   .sm\:text-2xl {
