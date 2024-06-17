@@ -25,14 +25,38 @@
     <section class="w-full grid grid-cols-1 md:grid-cols-2 px-4
     md:px-8 min-h-screen bg-red-400">
         <section class="bg-red-100 p-4">
-            <h2 class="text-5xl mb:text-7xl pb-1">Project Title</h2>
-            <p class="text-3xl mb:text-5xl pb-1">Description of project</p>
-            <button class="bg-red-700 text-gray-100 p-4 py-2 hover:bg-gray-800
-            hover:text-white transition ease-in-out duration-500">
-                <a href="https://github.com/talkpython/python-for-absolute-beginners-course">
-                    Go to repository
-                </a>
-            </button>
+            <h2 class="text-5xl mb:text-7xl pb-1">API Fetch</h2>
+            <p class="text-3xl mb:text-5xl pb-1 bg-white">A small JS program that uses API to fetch
+            random info of various categories.</p>
+            <p class="text-3xl mb:text-5xl pb-1 bg-white">This program uses the APIs from API Ninjas
+            to fetch info.</p>
+            <p class="text-3xl mb:text-5xl pb-1 bg-white">Try it out!</p>
+
+            <form class="pt-32">
+                <input type="checkbox" id="1_checkbox" name="1">
+                <label for="1_checkbox" class="text-3xl mb:text-5xl">TBA</label>
+                <input type="checkbox" id="2_checkbox" name="2">
+                <label for="2_checkbox" class="text-3xl mb:text-5xl">TBA</label>
+                <input type="checkbox" id="3_checkbox" name="3">
+                <label for="3_checkbox" class="text-3xl mb:text-5xl">TBA</label>
+
+                <p id="additional_box">
+                    <label for="additional">TBA</label>
+                    <input type="text" id="additional">
+                </p>
+
+                <button type="submit" id="api_button" class="bg-red-700 text-gray-100
+                p-4 py-2 hover:bg-gray-800 hover:text-white transition ease-in-out
+                duration-500">Get info</button>
+
+                <p class="text-2xl mb:text-4xl pt-6">Results are displayed below.</p>
+
+                <h2 id="results_header" class="pt-24 text-3xl mb:text-5xl"></h2>
+                <p id="results" class="text-xl mb:text-3xl">
+
+                </p>
+
+            </form>
         </section>
         <section class="bg-red-100 p-4">
             <img src="assets/img/JSicon.png" alt="" class="h-72">
