@@ -4,11 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     /**
      * Adjusts the top padding of the main content to prevent overlap with the fixed header.
-     *
-     * This function calculates the height of the header and applies the appropriate top padding
-     * to the main content area. The padding adjustment is only applied when the screen width is
-     * less than 640 pixels (below the 'sm' breakpoint in TailwindCSS).
-     */
+     **/
     function adjustPadding() {
         const headerHeight = header.offsetHeight;
         const screenWidth = window.innerWidth;
